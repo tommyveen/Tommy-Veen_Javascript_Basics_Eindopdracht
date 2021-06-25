@@ -1,0 +1,126 @@
+/* General styling */
+
+* {
+    font-family: 'Martel', serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* Hamburger menu styling */
+
+img {
+    cursor: pointer;
+    width: 3.5em;
+    height: 3.5em;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.menuIcon {
+    position: fixed;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+.show li {
+    position: relative;
+    left: -45px;
+    top: -10px;
+    visibility: visible;
+    list-style: none;
+    margin: 8px; 
+    padding: 4px 160px 4px 8px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}
+
+ul li {
+    visibility: hidden;
+    position: relative;
+    left: -45px;
+    top: -10px;
+    letter-spacing: 1px;
+    opacity: 0;
+}
+
+/* Background colors */
+
+.white-background {
+    background-color: white;
+}
+
+.red-background {
+    background-color: red;
+}
+
+.blue-background {
+    background-color: blue;
+}
+
+.yellow-background {
+    background-color: yellow;
+}
+
+.orange-background {
+    background-color: orange;
+}
+
+.purple-background {
+    background-color: purple;
+}
+
+.red {
+    background-color: red;
+}
+
+/* Menu button color and hover effect */
+
+.red:hover {
+    left: -40px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.blue:hover {
+    left: -40px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow:hover {
+    left: -40px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.orange:hover {
+    left: -40px;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.purple:hover {
+    left: -40px;
+}
+
+
+
